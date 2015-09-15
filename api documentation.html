@@ -1,0 +1,265 @@
+<pre>
+
+Server admin:
+http://beyourselfie.net/beta1/
+email: admin
+password: 123456
+
+Sign up:
+http://beyourselfie.net/beta1/index.php?r=api/signUp
+inputs: name(optional), email, password, parse_objectId
+inputs_files: Users[image]
+outputs: status, errors, user_id, auth_code, name, image
+status: 0->ok, 1->errors (check errors output)
+
+Sign in:
+http://beyourselfie.net/beta1/index.php?r=api/signIn
+inputs: email, password, parse_objectId
+outputs: status, errors, user_id, auth_code, name, image
+status: 0->ok, 1->errors (check errors output)
+
+Recover password:
+http://beyourselfie.net/beta1/index.php?r=api/recoverPassword
+inputs: email
+outputs: status, errors
+status: 0->ok, 1->errors (check errors output)
+
+Logout:
+http://beyourselfie.net/beta1/index.php?r=api/logout
+inputs: user_id, auth_code
+outputs: status, errors
+status: 0->ok, 1->errors (check errors output)
+
+Change password:
+http://beyourselfie.net/beta1/index.php?r=api/changePassword
+inputs: user_id, auth_code, new_password
+outputs: status, errors
+status: 0->ok, 1->errors (check errors output)
+
+Update profile:
+http://beyourselfie.net/beta1/index.php?r=api/updateProfile
+inputs: user_id, auth_code, name(optional), email(optional)
+inputs_files: Users[image]
+outputs: status, errors
+status: 0->ok, 1->errors (check errors output)
+
+Send selfie:
+http://beyourselfie.net/beta1/index.php?r=api/sendSelfie
+inputs: user_id, auth_code
+inputs_files: Selfies[image]
+outputs: status, errors
+status: 0->ok, 1->errors (check errors output)
+
+Get selfies:
+http://beyourselfie.net/beta1/index.php?r=api/getSelfies
+inputs: user_id, auth_code
+outputs: status, errors, selfies[id, image, user_id, username, user_image, likes, can_like, can_follow, is_friend, can_comment, comments[comment_id, comment, user_id, username, user_image, timestamp]] 
+status: 0->ok, 1->errors (check errors output)
+can like: 'y'->yes, 'b'->liked before, 'n'->no (selfie from past month)
+can follow: 'y'->yes, 'n'->no
+is friend: 'y'->yes, 'n'->no, 's'->request sent, 'r'->request recieved
+can comment: 'y'->yes, 'n'->no
+
+Get top selfies:
+http://beyourselfie.net/beta1/index.php?r=api/getTopSelfies
+inputs: user_id, auth_code
+outputs: status, errors, selfies[id, image, user_id, username, user_image, likes, can_like, can_follow, is_friend, can_comment, comments[comment_id, comment, user_id, username, user_image, timestamp]] 
+status: 0->ok, 1->errors (check errors output)
+can like: 'y'->yes, 'b'->liked before, 'n'->no (selfie from past month)
+can follow: 'y'->yes, 'n'->no
+is friend: 'y'->yes, 'n'->no, 's'->request sent, 'r'->request recieved
+can comment: 'y'->yes, 'n'->no
+
+Get my selfies:
+http://beyourselfie.net/beta1/index.php?r=api/getMySelfies
+inputs: user_id, auth_code
+outputs: status, errors, selfies[id, image, user_id, username, user_image, likes, can_like, can_follow, is_friend, can_comment, comments[comment_id, comment, user_id, username, user_image, timestamp]] 
+status: 0->ok, 1->errors (check errors output)
+can like: 'y'->yes, 'b'->liked before, 'n'->no (selfie from past month)
+can follow: 'y'->yes, 'n'->no
+is friend: 'y'->yes, 'n'->no, 's'->request sent, 'r'->request recieved
+can comment: 'y'->yes, 'n'->no
+
+Get user selfies:
+http://beyourselfie.net/beta1/index.php?r=api/getUserSelfies
+inputs: user_id, auth_code, user_id_to_get_selfies
+outputs: status, errors, selfies[id, image, user_id, username, user_image, likes, can_like, can_follow, is_friend, can_comment, comments[comment_id, comment, user_id, username, user_image, timestamp]] 
+status: 0->ok, 1->errors (check errors output)
+can like: 'y'->yes, 'b'->liked before, 'n'->no (selfie from past month)
+can follow: 'y'->yes, 'n'->no
+is friend: 'y'->yes, 'n'->no, 's'->request sent, 'r'->request recieved
+can comment: 'y'->yes, 'n'->no
+
+Delete selfie:
+http://beyourselfie.net/beta1/index.php?r=api/deleteSelfie
+inputs: user_id, auth_code, selfie_id
+outputs: status, errors
+status: 0->ok, 1->errors (check errors output)
+
+Like:
+http://beyourselfie.net/beta1/index.php?r=api/like
+inputs: user_id, auth_code, selfie_id
+outputs: status, errors
+status: 0->ok, 1->errors (check errors output)
+
+UnLike:
+http://beyourselfie.net/beta1/index.php?r=api/unlike
+inputs: user_id, auth_code, selfie_id
+outputs: status, errors
+status: 0->ok, 1->errors (check errors output)
+
+Comment:
+http://beyourselfie.net/beta1/index.php?r=api/comment
+inputs: user_id, auth_code, selfie_id, comment
+outputs: status, errors
+status: 0->ok, 1->errors (check errors output)
+
+Get Comments:
+http://beyourselfie.net/beta1/index.php?r=api/getComments
+inputs: user_id, auth_code, selfie_id
+outputs: status, errors, comments[id, comment, user_id, username, user_image, timestamp]
+status: 0->ok, 1->errors (check errors output)
+
+Search Users:
+http://beyourselfie.net/beta1/index.php?r=api/searchUsers
+inputs: user_id, auth_code, query
+outputs: status, errors, users[id, username, user_image, email, is_friend, is_follow]
+status: 0->ok, 1->errors (check errors output)
+is friend: 'y'->yes, 'n'->no, 's'->request sent, 'r'->request recieved
+is_follow: true, false
+
+Add Friend:
+http://beyourselfie.net/beta1/index.php?r=api/addFriend
+inputs: user_id, auth_code, friend_id
+outputs: status, errors
+status: 0->ok, 1->errors (check errors output)
+
+Cancel Friend Request:
+http://beyourselfie.net/beta1/index.php?r=api/cancelFriendRequest
+inputs: user_id, auth_code, request_id
+outputs: status, errors
+status: 0->ok, 1->errors (check errors output)
+
+Get Friendship Requests:
+http://beyourselfie.net/beta1/index.php?r=api/getFriendshipRequests
+inputs: user_id, auth_code
+outputs: status, errors, requests[id, user_id, username, email]
+status: 0->ok, 1->errors (check errors output)
+
+Accept Friend Request:
+http://beyourselfie.net/beta1/index.php?r=api/acceptFriendRequest
+inputs: user_id, auth_code, request_id
+outputs: status, errors
+status: 0->ok, 1->errors (check errors output)
+
+Reject Friend Request:
+http://beyourselfie.net/beta1/index.php?r=api/rejectFriendRequest
+inputs: user_id, auth_code, request_id
+outputs: status, errors
+status: 0->ok, 1->errors (check errors output)
+
+Remove Friend:
+http://beyourselfie.net/beta1/index.php?r=api/removeFriend
+inputs: user_id, auth_code, friend_id
+outputs: status, errors
+status: 0->ok, 1->errors (check errors output)
+
+Get Friends:
+http://beyourselfie.net/beta1/index.php?r=api/getFriends
+inputs: user_id, auth_code
+outputs: status, errors, friends[id, username, user_image, email, is_friend, is_follow]
+status: 0->ok, 1->errors (check errors output)
+is friend: 'y'->yes, 'n'->no, 's'->request sent, 'r'->request recieved
+is_follow: true, false
+
+Follow:
+http://beyourselfie.net/beta1/index.php?r=api/follow
+inputs: user_id, auth_code, follow_id
+outputs: status, errors
+status: 0->ok, 1->errors (check errors output)
+
+UnFollow:
+http://beyourselfie.net/beta1/index.php?r=api/unfollow
+inputs: user_id, auth_code, follow_id
+outputs: status, errors
+status: 0->ok, 1->errors (check errors output)
+
+Get Users you follow:
+http://beyourselfie.net/beta1/index.php?r=api/getUsersYouFollow
+inputs: user_id, auth_code
+outputs: status, errors, users[id, username, user_image, email, is_friend, is_follow]
+status: 0->ok, 1->errors (check errors output)
+is friend: 'y'->yes, 'n'->no, 's'->request sent, 'r'->request recieved
+is_follow: true, false
+
+Get Users follow you:
+http://beyourselfie.net/beta1/index.php?r=api/getUsersFollowYou
+inputs: user_id, auth_code
+outputs: status, errors, users[id, username, user_image, email, is_friend, is_follow]
+status: 0->ok, 1->errors (check errors output)
+is friend: 'y'->yes, 'n'->no, 's'->request sent, 'r'->request recieved
+is_follow: true, false
+
+Get Events:
+http://beyourselfie.net/beta1/index.php?r=api/getEvents
+inputs: user_id, auth_code
+outputs: status, errors, events[id, name, images[url]]
+status: 0->ok, 1->errors (check errors output)
+
+/*******************************************/
+/****************** chat *******************/
+/*******************************************/
+Chat history:
+uses to get the history of all your messages, latest message of each conversition (the same as the facebook messages button view)
+
+http://beyourselfie.net/beta1/index.php?r=api/chatHistory
+inputs: user_id, auth_code
+outputs: status, errors, history(id, sender_id, sender_name, sender_image, receiver_id, receiver_name, receiver_image, message, timestamp)
+status: 0->ok, 1->errors (check errors output)
+
+Start chat:
+uses to get all the chat history between 2 persons (as the view of the messages between you and friend on facebook)
+PS: you can send the last id you want to get messages after or you will get the first 20 messages
+
+http://beyourselfie.net/beta1/index.php?r=api/chat
+inputs: user_id, auth_code, receiver_id, last_id (optional), operator ['>' or '<'] (optional)
+outputs: status, errors, history(id, sender_id, sender_name, sender_image, receiver_id, receiver_name, receiver_image, message, timestamp)
+status: 0->ok, 1->errors (check errors output)
+
+Send Message:
+uses to send message from person to another one
+
+http://beyourselfie.net/beta1/index.php?r=api/sendMessage
+inputs: user_id, auth_code, receiver_id, message
+outputs: status, errors
+status: 0->ok, 1->errors (check errors output)
+
+Delete Message:
+uses to delete individuale message from person to another one
+
+http://beyourselfie.net/beta1/index.php?r=api/deleteMessage
+inputs: user_id, auth_code, message_id
+outputs: status, errors
+status: 0->ok, 1->errors (check errors output)
+
+Delete Chat:
+uses to delete all messages from person to another one
+
+http://beyourselfie.net/beta1/index.php?r=api/deleteChat
+inputs: user_id, auth_code, receiver_id
+outputs: status, errors
+status: 0->ok, 1->errors (check errors output)
+
+
+/*******************************************/
+/************** Notifications **************/
+/*******************************************/
+Notifications:
+add friend: {'id':1, 'text', 'user_id'}
+accept friend: {'id':2, 'text', 'user_id'}
+follow: {'id':3, 'text', 'user_id'}
+like:: {'id':4, 'text', 'user_id', 'selfie_id'}
+comment: {'id':5, 'text', 'user_id', 'selfie_id'}
+comment: {'id':6, 'text', 'user_id', 'message_id'}
+
+</pre>

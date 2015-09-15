@@ -1,0 +1,104 @@
+[17-Sep-2014 09:11:06 CST6CDT] PHP Warning:  require_once(/home/beyour/public_html/beta1/../yii/framework/yii.php): failed to open stream: No such file or directory in /home/beyour/public_html/beta1/index.php on line 12
+[17-Sep-2014 09:11:06 CST6CDT] PHP Fatal error:  require_once(): Failed opening required '/home/beyour/public_html/beta1/../yii/framework/yii.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/beyour/public_html/beta1/index.php on line 12
+[01-Oct-2014 15:48:02 CST6CDT] PHP Fatal error:  Call to a member function saveAs() on a non-object in /home/beyour/public_html/beta1/protected/controllers/ApiController.php on line 224
+[03-Oct-2014 01:58:37 CST6CDT] PHP Fatal error:  Call to a member function saveAs() on a non-object in /home/beyour/public_html/beta1/protected/controllers/ApiController.php on line 224
+[03-Oct-2014 01:59:31 CST6CDT] PHP Fatal error:  Call to a member function saveAs() on a non-object in /home/beyour/public_html/beta1/protected/controllers/ApiController.php on line 224
+[03-Oct-2014 02:02:25 CST6CDT] PHP Fatal error:  Call to a member function saveAs() on a non-object in /home/beyour/public_html/beta1/protected/controllers/ApiController.php on line 224
+[03-Oct-2014 02:04:37 CST6CDT] PHP Fatal error:  Call to a member function saveAs() on a non-object in /home/beyour/public_html/beta1/protected/controllers/ApiController.php on line 224
+[03-Oct-2014 02:05:32 CST6CDT] PHP Fatal error:  Call to a member function saveAs() on a non-object in /home/beyour/public_html/beta1/protected/controllers/ApiController.php on line 224
+[03-Oct-2014 07:41:54 CST6CDT] PHP Fatal error:  Call to a member function saveAs() on a non-object in /home/beyour/public_html/beta1/protected/controllers/ApiController.php on line 49
+[03-Oct-2014 07:44:43 CST6CDT] PHP Fatal error:  Call to a member function saveAs() on a non-object in /home/beyour/public_html/beta1/protected/controllers/ApiController.php on line 49
+[03-Oct-2014 07:47:00 CST6CDT] PHP Fatal error:  Call to a member function saveAs() on a non-object in /home/beyour/public_html/beta1/protected/controllers/ApiController.php on line 49
+[03-Oct-2014 08:23:29 CST6CDT] PHP Fatal error:  Call to a member function saveAs() on a non-object in /home/beyour/public_html/beta1/protected/controllers/ApiController.php on line 49
+[01-Nov-2014 12:06:11 CST6CDT] PHP Fatal error:  Call to a member function delete() on a non-object in /home/beyour/public_html/beta1/protected/controllers/ApiController.php on line 956
+[01-Nov-2014 12:06:15 CST6CDT] PHP Fatal error:  Call to a member function delete() on a non-object in /home/beyour/public_html/beta1/protected/controllers/ApiController.php on line 956
+[01-Nov-2014 12:06:18 CST6CDT] PHP Fatal error:  Call to a member function delete() on a non-object in /home/beyour/public_html/beta1/protected/controllers/ApiController.php on line 956
+[01-Nov-2014 12:08:55 CST6CDT] PHP Fatal error:  Call to a member function delete() on a non-object in /home/beyour/public_html/beta1/protected/controllers/ApiController.php on line 956
+[01-Nov-2014 12:09:07 CST6CDT] PHP Fatal error:  Call to a member function delete() on a non-object in /home/beyour/public_html/beta1/protected/controllers/ApiController.php on line 956
+[02-Nov-2014 07:36:06 CST6CDT] PHP Fatal error:  Call to a member function delete() on a non-object in /home/beyour/public_html/beta1/protected/controllers/ApiController.php on line 956
+[03-Nov-2014 01:19:27 CST6CDT] PHP Fatal error:  Call to a member function isFriend() on a non-object in /home/beyour/public_html/beta1/protected/controllers/ApiController.php on line 1024
+[03-Nov-2014 01:36:37 CST6CDT] PHP Fatal error:  Call to a member function isFriend() on a non-object in /home/beyour/public_html/beta1/protected/controllers/ApiController.php on line 989
+[03-Nov-2014 01:36:42 CST6CDT] PHP Fatal error:  Call to a member function isFriend() on a non-object in /home/beyour/public_html/beta1/protected/controllers/ApiController.php on line 1024
+[03-Nov-2014 12:03:40 CST6CDT] PHP Fatal error:  Call to a member function isFriend() on a non-object in /home/beyour/public_html/beta1/protected/controllers/ApiController.php on line 1024
+[03-Nov-2014 12:03:46 CST6CDT] PHP Fatal error:  Call to a member function isFriend() on a non-object in /home/beyour/public_html/beta1/protected/controllers/ApiController.php on line 989
+[04-Nov-2014 15:20:10 CST6CDT] PHP Fatal error:  Call to a member function isFriend() on a non-object in /home/beyour/public_html/beta1/protected/controllers/ApiController.php on line 1024
+[04-Nov-2014 15:21:33 CST6CDT] PHP Fatal error:  Call to a member function isFriend() on a non-object in /home/beyour/public_html/beta1/protected/controllers/ApiController.php on line 989
+[05-Nov-2014 16:41:07 CST6CDT] PHP Fatal error:  Call to a member function delete() on a non-object in /home/beyour/public_html/beta1/protected/controllers/ApiController.php on line 956
+[05-Nov-2014 16:41:09 CST6CDT] PHP Fatal error:  Call to a member function delete() on a non-object in /home/beyour/public_html/beta1/protected/controllers/ApiController.php on line 956
+[09-Dec-2014 14:43:23 CST6CDT] PHP Fatal error:  Call to a member function isFriend() on a non-object in /home/beyour/public_html/beta1/protected/controllers/ApiController.php on line 441
+[09-Dec-2014 14:43:51 CST6CDT] PHP Fatal error:  Call to a member function isFriend() on a non-object in /home/beyour/public_html/beta1/protected/controllers/ApiController.php on line 441
+[09-Dec-2014 14:45:44 CST6CDT] PHP Fatal error:  Call to a member function isFriend() on a non-object in /home/beyour/public_html/beta1/protected/controllers/ApiController.php on line 441
+[09-Dec-2014 14:45:52 CST6CDT] PHP Fatal error:  Call to a member function isFriend() on a non-object in /home/beyour/public_html/beta1/protected/controllers/ApiController.php on line 441
+[09-Dec-2014 14:50:11 CST6CDT] PHP Fatal error:  Call to a member function isFriend() on a non-object in /home/beyour/public_html/beta1/protected/controllers/ApiController.php on line 441
+[09-Dec-2014 14:58:56 CST6CDT] PHP Fatal error:  Call to a member function isFriend() on a non-object in /home/beyour/public_html/beta1/protected/controllers/ApiController.php on line 441
+[09-Dec-2014 14:59:02 CST6CDT] PHP Fatal error:  Call to a member function isFriend() on a non-object in /home/beyour/public_html/beta1/protected/controllers/ApiController.php on line 441
+[09-Dec-2014 14:59:33 CST6CDT] PHP Fatal error:  Call to a member function isFriend() on a non-object in /home/beyour/public_html/beta1/protected/controllers/ApiController.php on line 441
+[09-Dec-2014 14:59:40 CST6CDT] PHP Fatal error:  Call to a member function isFriend() on a non-object in /home/beyour/public_html/beta1/protected/controllers/ApiController.php on line 441
+[09-Dec-2014 14:59:46 CST6CDT] PHP Fatal error:  Call to a member function isFriend() on a non-object in /home/beyour/public_html/beta1/protected/controllers/ApiController.php on line 441
+[09-Dec-2014 14:59:53 CST6CDT] PHP Fatal error:  Call to a member function isFriend() on a non-object in /home/beyour/public_html/beta1/protected/controllers/ApiController.php on line 441
+[09-Dec-2014 15:02:26 CST6CDT] PHP Fatal error:  Call to a member function isFriend() on a non-object in /home/beyour/public_html/beta1/protected/controllers/ApiController.php on line 441
+[09-Dec-2014 15:02:33 CST6CDT] PHP Fatal error:  Call to a member function isFriend() on a non-object in /home/beyour/public_html/beta1/protected/controllers/ApiController.php on line 441
+[09-Dec-2014 15:02:39 CST6CDT] PHP Fatal error:  Call to a member function isFriend() on a non-object in /home/beyour/public_html/beta1/protected/controllers/ApiController.php on line 441
+[09-Dec-2014 15:02:46 CST6CDT] PHP Fatal error:  Call to a member function isFriend() on a non-object in /home/beyour/public_html/beta1/protected/controllers/ApiController.php on line 441
+[09-Dec-2014 15:09:30 CST6CDT] PHP Fatal error:  Call to a member function isFriend() on a non-object in /home/beyour/public_html/beta1/protected/controllers/ApiController.php on line 441
+[09-Dec-2014 15:17:08 CST6CDT] PHP Fatal error:  Call to a member function isFriend() on a non-object in /home/beyour/public_html/beta1/protected/controllers/ApiController.php on line 442
+[09-Dec-2014 15:27:10 CST6CDT] PHP Parse error:  syntax error, unexpected ')' in /home/beyour/public_html/beta1/protected/controllers/ApiController.php on line 99
+[09-Dec-2014 15:27:47 CST6CDT] PHP Parse error:  syntax error, unexpected ')' in /home/beyour/public_html/beta1/protected/controllers/ApiController.php on line 99
+[09-Dec-2014 15:33:27 CST6CDT] PHP Fatal error:  Call to a member function isFriend() on a non-object in /home/beyour/public_html/beta1/protected/controllers/ApiController.php on line 443
+[09-Dec-2014 15:34:45 CST6CDT] PHP Fatal error:  Call to a member function isFriend() on a non-object in /home/beyour/public_html/beta1/protected/controllers/ApiController.php on line 443
+[09-Dec-2014 15:35:01 CST6CDT] PHP Fatal error:  Call to a member function isFriend() on a non-object in /home/beyour/public_html/beta1/protected/controllers/ApiController.php on line 443
+[09-Dec-2014 15:35:23 CST6CDT] PHP Fatal error:  Call to a member function isFriend() on a non-object in /home/beyour/public_html/beta1/protected/controllers/ApiController.php on line 443
+[09-Dec-2014 15:37:46 CST6CDT] PHP Fatal error:  Call to a member function isFriend() on a non-object in /home/beyour/public_html/beta1/protected/controllers/ApiController.php on line 443
+[09-Dec-2014 15:48:11 CST6CDT] PHP Fatal error:  Call to a member function isFriend() on a non-object in /home/beyour/public_html/beta1/protected/controllers/ApiController.php on line 438
+[09-Dec-2014 15:50:02 CST6CDT] PHP Fatal error:  Call to a member function isFriend() on a non-object in /home/beyour/public_html/beta1/protected/controllers/ApiController.php on line 438
+[09-Dec-2014 15:51:04 CST6CDT] PHP Fatal error:  Call to a member function isFriend() on a non-object in /home/beyour/public_html/beta1/protected/controllers/ApiController.php on line 438
+[09-Dec-2014 15:54:13 CST6CDT] PHP Fatal error:  Call to a member function isFriend() on a non-object in /home/beyour/public_html/beta1/protected/controllers/ApiController.php on line 438
+[09-Dec-2014 15:54:21 CST6CDT] PHP Fatal error:  Call to a member function isFriend() on a non-object in /home/beyour/public_html/beta1/protected/controllers/ApiController.php on line 438
+[09-Dec-2014 15:58:30 CST6CDT] PHP Fatal error:  Call to a member function isFriend() on a non-object in /home/beyour/public_html/beta1/protected/controllers/ApiController.php on line 438
+[09-Dec-2014 15:59:44 CST6CDT] PHP Fatal error:  Call to a member function isFriend() on a non-object in /home/beyour/public_html/beta1/protected/controllers/ApiController.php on line 438
+[09-Dec-2014 16:04:15 CST6CDT] PHP Fatal error:  Call to a member function isFriend() on a non-object in /home/beyour/public_html/beta1/protected/controllers/ApiController.php on line 438
+[09-Dec-2014 16:09:31 CST6CDT] PHP Fatal error:  Call to a member function isFriend() on a non-object in /home/beyour/public_html/beta1/protected/controllers/ApiController.php on line 439
+[09-Dec-2014 16:39:59 CST6CDT] PHP Parse error:  syntax error, unexpected ')' in /home/beyour/public_html/beta1/protected/controllers/ApiController.php on line 303
+[10-Dec-2014 08:09:25 CST6CDT] PHP Fatal error:  Call to a member function isFriend() on a non-object in /home/beyour/public_html/beta1/protected/controllers/ApiController.php on line 444
+[10-Dec-2014 08:09:41 CST6CDT] PHP Fatal error:  Call to a member function isFriend() on a non-object in /home/beyour/public_html/beta1/protected/controllers/ApiController.php on line 444
+[10-Dec-2014 08:09:42 CST6CDT] PHP Fatal error:  Call to a member function isFriend() on a non-object in /home/beyour/public_html/beta1/protected/controllers/ApiController.php on line 444
+[10-Dec-2014 08:10:07 CST6CDT] PHP Fatal error:  Call to a member function isFriend() on a non-object in /home/beyour/public_html/beta1/protected/controllers/ApiController.php on line 444
+[10-Dec-2014 08:10:09 CST6CDT] PHP Fatal error:  Call to a member function isFriend() on a non-object in /home/beyour/public_html/beta1/protected/controllers/ApiController.php on line 444
+[10-Dec-2014 12:34:35 CST6CDT] PHP Fatal error:  Call to a member function isFriend() on a non-object in /home/beyour/public_html/beta1/protected/controllers/ApiController.php on line 444
+[10-Dec-2014 12:38:39 CST6CDT] PHP Fatal error:  Call to a member function isFriend() on a non-object in /home/beyour/public_html/beta1/protected/controllers/ApiController.php on line 444
+[10-Dec-2014 13:52:57 CST6CDT] PHP Fatal error:  Call to a member function isFriend() on a non-object in /home/beyour/public_html/beta1/protected/controllers/ApiController.php on line 443
+[10-Dec-2014 13:55:38 CST6CDT] PHP Fatal error:  Call to a member function isFriend() on a non-object in /home/beyour/public_html/beta1/protected/controllers/ApiController.php on line 444
+[10-Dec-2014 13:56:43 CST6CDT] PHP Fatal error:  Call to a member function isFriend() on a non-object in /home/beyour/public_html/beta1/protected/controllers/ApiController.php on line 444
+[10-Dec-2014 13:58:07 CST6CDT] PHP Fatal error:  Call to a member function isFriend() on a non-object in /home/beyour/public_html/beta1/protected/controllers/ApiController.php on line 445
+[10-Dec-2014 13:59:15 CST6CDT] PHP Fatal error:  Call to a member function isFriend() on a non-object in /home/beyour/public_html/beta1/protected/controllers/ApiController.php on line 445
+[10-Dec-2014 13:59:32 CST6CDT] PHP Fatal error:  Call to a member function isFriend() on a non-object in /home/beyour/public_html/beta1/protected/controllers/ApiController.php on line 446
+[27-Dec-2014 19:15:01 CST6CDT] PHP Parse error:  syntax error, unexpected ')' in /home/beyour/public_html/beta1/protected/controllers/ApiController.php on line 1123
+[13-Jan-2015 13:03:25 CST6CDT] PHP Fatal error:  Call to a member function isFriend() on a non-object in /home/beyour/public_html/beta1/protected/controllers/ApiController.php on line 445
+[13-Jan-2015 13:03:38 CST6CDT] PHP Fatal error:  Call to a member function isFriend() on a non-object in /home/beyour/public_html/beta1/protected/controllers/ApiController.php on line 445
+[13-Jan-2015 13:04:13 CST6CDT] PHP Fatal error:  Call to a member function isFriend() on a non-object in /home/beyour/public_html/beta1/protected/controllers/ApiController.php on line 445
+[13-Jan-2015 13:04:21 CST6CDT] PHP Fatal error:  Call to a member function isFriend() on a non-object in /home/beyour/public_html/beta1/protected/controllers/ApiController.php on line 445
+[13-Jan-2015 13:04:56 CST6CDT] PHP Fatal error:  Call to a member function isFriend() on a non-object in /home/beyour/public_html/beta1/protected/controllers/ApiController.php on line 445
+[13-Jan-2015 13:12:48 CST6CDT] PHP Fatal error:  Call to a member function isFriend() on a non-object in /home/beyour/public_html/beta1/protected/controllers/ApiController.php on line 445
+[13-Jan-2015 13:14:46 CST6CDT] PHP Fatal error:  Call to a member function isFriend() on a non-object in /home/beyour/public_html/beta1/protected/controllers/ApiController.php on line 445
+[13-Jan-2015 13:15:05 CST6CDT] PHP Fatal error:  Call to a member function isFriend() on a non-object in /home/beyour/public_html/beta1/protected/controllers/ApiController.php on line 445
+[13-Jan-2015 13:15:22 CST6CDT] PHP Fatal error:  Call to a member function isFriend() on a non-object in /home/beyour/public_html/beta1/protected/controllers/ApiController.php on line 445
+[13-Jan-2015 13:16:30 CST6CDT] PHP Fatal error:  Call to a member function isFriend() on a non-object in /home/beyour/public_html/beta1/protected/controllers/ApiController.php on line 445
+[13-Jan-2015 14:10:41 CST6CDT] PHP Fatal error:  Call to a member function isFriend() on a non-object in /home/beyour/public_html/beta1/protected/controllers/ApiController.php on line 445
+[13-Jan-2015 14:11:40 CST6CDT] PHP Fatal error:  Call to a member function isFriend() on a non-object in /home/beyour/public_html/beta1/protected/controllers/ApiController.php on line 445
+[13-Jan-2015 14:11:52 CST6CDT] PHP Fatal error:  Call to a member function isFriend() on a non-object in /home/beyour/public_html/beta1/protected/controllers/ApiController.php on line 445
+[13-Jan-2015 14:12:10 CST6CDT] PHP Fatal error:  Call to a member function isFriend() on a non-object in /home/beyour/public_html/beta1/protected/controllers/ApiController.php on line 445
+[13-Jan-2015 14:12:12 CST6CDT] PHP Fatal error:  Call to a member function isFriend() on a non-object in /home/beyour/public_html/beta1/protected/controllers/ApiController.php on line 445
+[13-Jan-2015 14:12:16 CST6CDT] PHP Fatal error:  Call to a member function isFriend() on a non-object in /home/beyour/public_html/beta1/protected/controllers/ApiController.php on line 445
+[13-Jan-2015 14:12:18 CST6CDT] PHP Fatal error:  Call to a member function isFriend() on a non-object in /home/beyour/public_html/beta1/protected/controllers/ApiController.php on line 445
+[13-Jan-2015 14:12:20 CST6CDT] PHP Fatal error:  Call to a member function isFriend() on a non-object in /home/beyour/public_html/beta1/protected/controllers/ApiController.php on line 445
+[02-Feb-2015 17:46:49 CST6CDT] PHP Fatal error:  Call to a member function delete() on a non-object in /home/beyour/public_html/beta1/protected/controllers/ApiController.php on line 1048
+[02-Feb-2015 17:46:52 CST6CDT] PHP Fatal error:  Call to a member function delete() on a non-object in /home/beyour/public_html/beta1/protected/controllers/ApiController.php on line 1048
+[02-Feb-2015 17:46:55 CST6CDT] PHP Fatal error:  Call to a member function delete() on a non-object in /home/beyour/public_html/beta1/protected/controllers/ApiController.php on line 1048
+[16-Feb-2015 11:05:16 CST6CDT] PHP Parse error:  syntax error, unexpected end of file, expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in /home/beyour/public_html/beta1/protected/controllers/ApiController.php on line 1056
+[23-Mar-2015 21:33:19 Egypt] PHP Fatal error:  Cannot redeclare ApiController::actionSendMessage() in /home/beyour/public_html/beta1/protected/controllers/ApiController.php on line 1380
+[23-Mar-2015 21:34:58 Egypt] PHP Fatal error:  Call to a member function delete() on a non-object in /home/beyour/public_html/beta1/protected/controllers/ApiController.php on line 1361
+[23-Mar-2015 21:35:28 Egypt] PHP Fatal error:  Call to undefined function _getErrors() in /home/beyour/public_html/beta1/protected/controllers/ApiController.php on line 1365
+[28-Mar-2015 18:54:42 Egypt] PHP Parse error:  syntax error, unexpected end of file in /home/beyour/public_html/beta1/protected/controllers/ApiController.php on line 1055
+[30-Mar-2015 17:24:46 Egypt] PHP Parse error:  syntax error, unexpected end of file in /home/beyour/public_html/beta1/protected/controllers/ApiController.php on line 1055
+[16-Apr-2015 13:57:24 Egypt] PHP Parse error:  syntax error, unexpected ',' in /home/beyour/public_html/beta1/protected/controllers/SelfiesController.php on line 71
+[16-Apr-2015 13:57:32 Egypt] PHP Parse error:  syntax error, unexpected ',' in /home/beyour/public_html/beta1/protected/controllers/SelfiesController.php on line 71
